@@ -1,0 +1,18 @@
+div.p {
+	background-color: #000;
+	height: 1px;
+	border: none;
+	width: 502px;
+	margin-top: 4px;
+	margin-bottom: 4px;
+}
+
+canvas#viewport {
+	border: 1px solid black;
+}
+
+textarea {
+	border: 1px solid black;
+	width: 502px;
+	resize: vertical;
+}

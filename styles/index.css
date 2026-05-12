@@ -13,6 +13,42 @@ canvas#viewport {
 
 textarea {
 	border: 1px solid black;
-	width: 502px;
+	width: 500px;
 	resize: vertical;
+	height: 96px;
+}
+
+p.clue {
+	font-family: monospace;
+	width: 500px;
+	resize: vertical;
+	height: 96px;
+	white-space: pre-wrap;
+	word-break: break-all;
+}
+
+form {
+	display: inline-block;
+	margin: 2px;
+}
+
+td {
+	text-align: center;
+	vertical-align: middle;
+	border: 1px solid black;
+	width: 164px;
+	height: 32px;
+}
+
+table {
+	border-collapse: collapse;
+}
+
+button {
+	border: 1px solid black;
+	background-color: #eee;
+}
+
+button:hover {
+	background-color: #ddd;
 }

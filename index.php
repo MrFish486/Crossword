@@ -36,6 +36,7 @@ if ($h < 1) {
 		<script src="scripts/index.js"></script>
 	</head>
 	<body>
+		<input></input><br>
 		<canvas id="viewport" width="500px" height="500px"></canvas>
 		<div class="p"></div>
 		<textarea placeholder="clues" id="clues"></textarea>

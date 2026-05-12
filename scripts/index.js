@@ -81,7 +81,7 @@
 			}
 		}
 	}
-	annotate();
+	//annotate();
 	render();
 	document.onmousedown = e => {
 		let r = e.target.getBoundingClientRect();
@@ -162,5 +162,8 @@
 		document.body.appendChild(c);
 		document.body.appendChild(b);
 		document.body.appendChild(a);
+		document.onkeydown = null;
+		document.onmousedown = null;
+		document.onmouseup = null;
 	}
 })();

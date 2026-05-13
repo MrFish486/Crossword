@@ -22,12 +22,16 @@ textarea {
 
 p.clue {
 	font-family: monospace;
-	width: 249px;
+	width: 242px;
 	resize: vertical;
 	white-space: pre-wrap;
 	word-break: break-all;
 	vertical-align: top;
 	display: inline-block;
+	margin: 2px;
+	border: 1px solid black;
+	padding: 2px;
+	
 }
 
 p.c {

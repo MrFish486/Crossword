@@ -187,4 +187,26 @@
 		document.onmouseup = null;
 		window.print();
 	}
+	document.getElementById("let").onclick = () => {
+		for (let y = 0; y < HEIGHT; y ++) {
+			for (let x = 0; x < WIDTH; x ++) {
+				if (crossword[y][x].type == "letter") {
+					crossword[y][x].letter = " ";
+				}
+			}
+		}
+		render();
+	}
+	document.getElementById("an").onclick = () => {
+		annotate();
+		render();
+	}
+	document.getElementById("rn").onclick = () => {
+		for (let y = 0; y < HEIGHT; y ++) {
+			for (let x = 0; x < WIDTH; x ++) {
+				delete crossword[y][x].number;
+			}
+		}
+		render();
+	}
 })();

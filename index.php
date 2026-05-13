@@ -45,7 +45,9 @@ if ($h < 1) {
 		<div class="p"></div>
 		<table>
 			<tr>
-				<td></td>
+				<td>
+					<button id="print">Print</button>
+				</td>
 				<td>
 					<?php if ($h > 1) { ?>
 						<form action="/" method="GET">
@@ -55,7 +57,9 @@ if ($h < 1) {
 						</form>
 					<?php } ?>
 				</td>
-				<td></td>
+				<td>
+					<button id="let">Remove Letters</button>
+				</td>
 			</tr>
 			<tr>
 				<td>
@@ -68,7 +72,7 @@ if ($h < 1) {
 					<?php } ?>
 				</td>	
 				<td>
-					<button id="print">(<?= $w ?>x<?= $h ?>) Print</button>
+					<?= $w ?>x<?= $h ?>
 				</td>
 				<td>
 					<form action="/" method="GET">
@@ -79,7 +83,9 @@ if ($h < 1) {
 				</td>
 			</tr>
 			<tr>
-				<td></td>
+				<td>
+					<button id="an">Insert Numbers</button>
+				</td>
 				<td>
 					<form action="/" method="GET">
 						<input value="<?= $w ?>" name="w" type="hidden" hidden></input>
@@ -87,7 +93,9 @@ if ($h < 1) {
 						<button type="submit">Height +</button>
 					</form>
 				</td>
-				<td></td>
+				<td>
+					<button id="rn">Remove Numbers</button>
+				</td>
 			</tr>
 		</table>
 	</body>

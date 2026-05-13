@@ -13,18 +13,25 @@ canvas#viewport {
 
 textarea {
 	border: 1px solid black;
-	width: 500px;
+	width: 249px;
 	resize: vertical;
-	height: 96px;
+	min-height: 96px;
+	max-height: 256px;
+	vertical-align: top;
 }
 
 p.clue {
 	font-family: monospace;
-	width: 500px;
+	width: 249px;
 	resize: vertical;
-	height: 96px;
 	white-space: pre-wrap;
 	word-break: break-all;
+	vertical-align: top;
+	display: inline-block;
+}
+
+p.c {
+	text-align: center;
 }
 
 form {
